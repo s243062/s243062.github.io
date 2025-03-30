@@ -37,3 +37,10 @@ Although San Francisco’s overall crime rate has dropped to historic lows, vehi
   - Cars with upgraded factory security systems, making it harder for thieves to break in or drive away  
   ([East Bay Times, 2007](https://www-eastbaytimes-com.cdn.ampproject.org/v/s/www.eastbaytimes.com/2007/02/16/car-thefts-decrease-statewide/amp/?amp_gsa=1&amp_js_v=a9&usqp=mq331AQIUAKwASCAAgM%3D#amp_tf=From%20%251%24s&aoh=17430097887173&referrer=https%3A%2F%2Fwww.google.com&ampshare=https%3A%2F%2Fwww.eastbaytimes.com%2F2007%2F02%2F16%2Fcar-thefts-decrease-statewide%2F))  
 
+
+- **2011 – The Rise**  
+  In 2011, California implemented AB 109: Public Safety Realignment, a major reform that diverted lower-level offenders from state prisons to county jails — or, in many cases, no incarceration at all. This new legislation caused significant issues, including:  
+  - Thousands of offenders being released or left unsupervised  
+  - Counties struggling with overcrowded jails  
+  - A dramatic increase in motor vehicle theft  
+  The **Public Policy Institute of California (PPIC)** ([PPIC, 2013](https://www.ppic.org/publication/public-safety-realignment-and-crime-rates-in-california/)) reported that the rise in thefts was directly tied to the realignment policies. This period marked the reversal of a long-term decline in car thefts, especially in urban centers like San Francisco.
