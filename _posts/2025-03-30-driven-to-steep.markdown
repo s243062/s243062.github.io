@@ -26,3 +26,14 @@ Although San Francisco’s overall crime rate has dropped to historic lows, vehi
     Get access to data
   </a>
 </span>
+
+<span style="font-size: 20px">Timeline:</span>
+
+
+- **2006 – Technology Helps Reduce Car Theft**  
+  Before 2006, car theft was one of the most common crimes in San Francisco. But that all started to change as new technologies and smarter law enforcement tactics took hold. By 2006, the number of car thefts had dropped significantly. Some of the key innovations that made this possible included:  
+  - The use of “bait cars” with hidden cameras and GPS trackers to catch thieves in the act  
+  - Automated license plate readers (ALPR) that helped police track stolen vehicles in real-time  
+  - Cars with upgraded factory security systems, making it harder for thieves to break in or drive away  
+  ([East Bay Times, 2007](https://www-eastbaytimes-com.cdn.ampproject.org/v/s/www.eastbaytimes.com/2007/02/16/car-thefts-decrease-statewide/amp/?amp_gsa=1&amp_js_v=a9&usqp=mq331AQIUAKwASCAAgM%3D#amp_tf=From%20%251%24s&aoh=17430097887173&referrer=https%3A%2F%2Fwww.google.com&ampshare=https%3A%2F%2Fwww.eastbaytimes.com%2F2007%2F02%2F16%2Fcar-thefts-decrease-statewide%2F))  
+
