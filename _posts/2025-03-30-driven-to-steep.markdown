@@ -35,7 +35,10 @@ Although San Francisco’s overall crime rate has dropped to historic lows, vehi
   - The use of “bait cars” with hidden cameras and GPS trackers to catch thieves in the act  
   - Automated license plate readers (ALPR) that helped police track stolen vehicles in real-time  
   - Cars with upgraded factory security systems, making it harder for thieves to break in or drive away  
+  
+  
   ([East Bay Times, 2007](https://www-eastbaytimes-com.cdn.ampproject.org/v/s/www.eastbaytimes.com/2007/02/16/car-thefts-decrease-statewide/amp/?amp_gsa=1&amp_js_v=a9&usqp=mq331AQIUAKwASCAAgM%3D#amp_tf=From%20%251%24s&aoh=17430097887173&referrer=https%3A%2F%2Fwww.google.com&ampshare=https%3A%2F%2Fwww.eastbaytimes.com%2F2007%2F02%2F16%2Fcar-thefts-decrease-statewide%2F))  
+
 
 
 - **2011 – The Rise**  
@@ -43,4 +46,14 @@ Although San Francisco’s overall crime rate has dropped to historic lows, vehi
   - Thousands of offenders being released or left unsupervised  
   - Counties struggling with overcrowded jails  
   - A dramatic increase in motor vehicle theft  
+  
   The **Public Policy Institute of California (PPIC)** ([PPIC, 2013](https://www.ppic.org/publication/public-safety-realignment-and-crime-rates-in-california/)) reported that the rise in thefts was directly tied to the realignment policies. This period marked the reversal of a long-term decline in car thefts, especially in urban centers like San Francisco.
+
+
+- **2016-2018 – Tackling the Surge in Car Theft**  
+  Between 2016 and 2018, California took significant steps to curb the rising rates of car theft under Senate Bill 1743, also known as the Motor Vehicle Theft Prevention Act ([SB 1743, 2017/2018](https://staging.chp.ca.gov/siteassets/files/2017-motor-vehicle-theft-prevention-act-report.pdf)). The state's Foreign Export and Recovery (FEAR) teams ramped up their efforts, focusing on high-risk areas like the Bay Area.  
+  The Northern FEAR Team, responsible for San Francisco and surrounding counties, deployed several key strategies to tackle the issue:
+  - Conducting export inspections at the Port of Oakland to intercept stolen vehicles bound for international markets  
+  - Collaborating with other law enforcement agencies to carry out multi-agency sweeps targeting repeat offenders  
+
+  One of the most notable operations during this time was **Operation Cold Day**, a major crackdown on organized theft rings. In collaboration with the San Francisco Police Department and other agencies, the operation led to the recovery of stolen vehicles—including high-end models like a Lexus and a Mercedes—destined for overseas sale.
