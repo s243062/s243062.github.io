@@ -20,7 +20,7 @@
 
 title: 02806 Social Data Analysis and Visualization - Group 50
 description: >- # this means to ignore newlines until "baseurl:"
-  This is #2 assignment's website for 02806 Social Data Analysis and Visualization at DTU. The website is created with <3 by Group 50.
+  This website is for Assignment #2 in the 02806 Social Data Analysis and Visualization course at DTU, created with <3 by Group 50.
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Build settings
