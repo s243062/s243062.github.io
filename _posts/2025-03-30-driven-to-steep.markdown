@@ -158,3 +158,12 @@ Get access to data
         </a>
     </span>
 </div>
+
+San Francisco’s car theft trends have fluctuated over the past two decades, closely tied to technological advances, policy changes, and social influences. A major **tech-driven decline** began after 2006, as police used bait cars and automated license plate readers, making vehicle theft riskier. However, in **2011, AB 109** prison reform led to an increase in thefts, as more offenders were released.  
+
+Efforts to counter the surge came in **2016 with FEAR operations**, targeting organized theft rings and international smuggling networks. Yet, in **2022, the TikTok Trend** triggered another spike, as viral videos revealed security flaws in certain car models, leading to a nationwide wave of thefts.  
+
+By **2024, SFPD reforms** helped bring crime rates to historic lows, using smarter enforcement tactics and improved police coordination.  
+
+Car theft in San Francisco has been a constant cycle of ups and downs, shaped by new laws, tech advancements, and even internet trends. The lesson? Crime doesn’t just disappear—it changes, finding new ways to adapt to the system.  
+ 
