@@ -75,7 +75,7 @@ Get access to data
 
 </div>
 
-<div style="text-align: center; margin-top: 10px; padding-bottom: 20px;">
+<div style="text-align: center; margin-top: 10px; padding-bottom: 10px;">
     <span style="font-size: 14px; color: gray;">
         Heatmap comparison between vehicle theft hotspots in San Francisco between two years of your choice. Darker areas indicate higher concentrations of thefts.
     </span>
@@ -114,6 +114,8 @@ Get access to data
     populateDropdown("yearSelectLeft", "mapFrameLeft", 2005);
     populateDropdown("yearSelectRight", "mapFrameRight", 2006);
 </script>
+
+The implementation of bait car programs appears to have influenced the spatial distribution of vehicle thefts in San Francisco. As shown in the heatmaps, high-theft hotspots shifted noticeably after the policy introduction — suggesting that thieves may have altered their behavior in response to increased risk in previously targeted areas.
 
 -   **2011 – The Rise**  
     In 2011, California implemented AB 109: Public Safety Realignment, a major reform that diverted lower-level offenders from state prisons to county jails — or, in many cases, no incarceration at all. This new legislation caused significant issues, including:
