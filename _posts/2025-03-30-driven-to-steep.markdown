@@ -183,22 +183,27 @@ Get access to data
 </div>
 
 <script>
-    function populateDropdown(selectId, iframeId) {
+    function populateDropdown(selectId, iframeId, defaultYear) {
         var select = document.getElementById(selectId);
+        var iframe = document.getElementById(iframeId);
 
         for (var year = 2003; year <= 2024; year++) {
             var option = document.createElement("option");
             option.value = year;
             option.textContent = year;
+            if (year === defaultYear) option.selected = true;
             select.appendChild(option);
         }
 
+        // Set the iframe source to the default year
+        iframe.src = "/assets/heatmaps/heatmap_" + defaultYear + ".html";
+
         select.addEventListener("change", function() {
-            document.getElementById(iframeId).src = "/assets/heatmaps/heatmap_" + this.value + ".html";
+            iframe.src = "/assets/heatmaps/heatmap_" + this.value + ".html";
         });
     }
 
-    // Populate both dropdowns
-    populateDropdown("yearSelectLeft", "mapFrameLeft");
-    populateDropdown("yearSelectRight", "mapFrameRight");
+    // Populate dropdowns with default years set to 2005 (left) and 2006 (right)
+    populateDropdown("yearSelectLeft", "mapFrameLeft", 2005);
+    populateDropdown("yearSelectRight", "mapFrameRight", 2006);
 </script>
