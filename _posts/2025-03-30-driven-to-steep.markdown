@@ -57,19 +57,19 @@ Get access to data
 -   **2020–2022 – The Pandemic Crime Shift & the TikTok Effect**  
     While overall crime in San Francisco declined during the pandemic, car thefts surged, jumping approximately 42% from 2019 to 2022 ([Axios, 2023](https://www.axios.com/local/san-francisco/2023/03/21/san-francisco-car-thefts-overall-crime-trends)). Several key factors contributed to this increase:
 
-    -   **Reduced police presence** – Pandemic-related constraints led to fewer traffic stops and patrols, creating more opportunities for car thieves ([SF Chronicle, 2021](https://www.sfchronicle.com/crime/article/This-is-how-the-pandemic-changed-crime-in-every-16107691.php)).
-    -   **Economic strain** – Widespread financial hardship correlated with a rise in property crimes, including auto theft.
-    -   **The “Kia Boyz” trend** – A viral TikTok challenge showed how to hotwire certain Kia and Hyundai models using a USB cable. This led to a wave of thefts nationwide, with San Francisco among the hardest-hit cities ([SFGate, 2023](https://www.sfgate.com/bayarea/article/here-s-kia-s-stolen-across-country-17865710.php)).
+    -   Reduced police presence – Pandemic-related constraints led to fewer traffic stops and patrols, creating more opportunities for car thieves ([SF Chronicle, 2021](https://www.sfchronicle.com/crime/article/This-is-how-the-pandemic-changed-crime-in-every-16107691.php)).
+    -   Economic strain – Widespread financial hardship correlated with a rise in property crimes, including auto theft.
+    -   The “Kia Boyz” trend – A viral TikTok challenge showed how to hotwire certain Kia and Hyundai models using a USB cable. This led to a wave of thefts nationwide, with San Francisco among the hardest-hit cities ([SFGate, 2023](https://www.sfgate.com/bayarea/article/here-s-kia-s-stolen-across-country-17865710.php)).
 
     By the end of 2022, vehicle thefts in San Francisco had reached their highest levels in nearly a decade, following a broader national trend ([NICB, 2022](https://www.nicb.org/news/news-releases/nicb-report-finds-vehicle-thefts-continue-skyrocket-many-areas-us#:~:text=DES%20PLAINES%2C%20Ill.%2C%20September,a%2017%25%20increase%20since%202019.)).
 
 -   **2024 – Record Low Crime & Reform Efforts**  
-    After years of fluctuations, San Francisco’s crime rate dropped to its lowest level in 23 years. Both violent and property crimes saw double-digit declines compared to 2023, with car burglaries and auto thefts among the most significant decreases ([NBC Bay Area, 2025](https://www.nbcbayarea.com/news/local/san-francisco-crime-rate-drop-lowest-level-stats/3754109/)). Several factors affected this shift:
+    After years of fluctuations, San Francisco’s overall crime rate dropped to its lowest level in 23 years. Both violent and property crimes saw double-digit declines compared to 2023, with car burglaries and auto thefts among the most significant decreases ([NBC Bay Area, 2025](https://www.nbcbayarea.com/news/local/san-francisco-crime-rate-drop-lowest-level-stats/3754109/)). Several factors affected this shift:
 
-    -   **Major drop in car burglaries** – Car break-ins fell by more than half, marking one of the sharpest declines in recent history.
-    -   **Police reform efforts** – The SFPD implemented nearly all of the 272 reforms introduced in 2017, which officials say helped improve public trust and efficiency.
-    -   **Tech-assisted enforcement** – Officers expanded their use of automated license plate readers and drones to deter and track auto theft.
-    -   **Stronger coordination** – A better working relationship between SFPD and the district attorney’s office played a role in more effective policing strategies.
+    -   Major drop in car burglaries – Car break-ins fell by more than half, marking one of the sharpest declines in recent history.
+    -   Police reform efforts – The SFPD implemented nearly all of the 272 reforms introduced in 2017, which officials say helped improve public trust and efficiency.
+    -   Tech-assisted enforcement – Officers expanded their use of automated license plate readers and drones to deter and track auto theft.
+    -   Stronger coordination – A better working relationship between SFPD and the district attorney’s office played a role in more effective policing strategies.
 
     By the end of 2024, San Francisco recorded its lowest homicide rate since the early 1960s, and overall crime rates returned to levels not seen since 2001. While challenges remain, officials credited a mix of proactive enforcement, technology, and long-term reform efforts for the decline.
 
@@ -141,3 +141,64 @@ Get access to data
         </a>
     </span>
 </div>
+
+<div style="text-align: center; padding-top: 20px">
+    <h4>Vehicle Theft Hotspots Comparison in SF (2003–2024) </h4>
+</div>
+
+<div style="display: flex; justify-content: center; gap: 20px;">
+    <!-- Left Heatmap -->
+    <div style="text-align: center;">
+        <label for="yearSelectLeft" style="font-weight: 600; font-size: 16px; color: #7c7b7b">Select Year:</label>
+        <select id="yearSelectLeft" style="padding: 5px; font-size: 14px; margin-left: 10px; color:#7c7b7b"></select>
+        <div style="margin-top: 10px;">
+            <iframe id="mapFrameLeft" src="/assets/heatmaps/heatmap_2003.html" width="400px" height="600px" 
+                style="border: 2px solid #A9A9A9; border-radius: 8px;"></iframe>
+        </div>
+    </div>
+    <!-- Right Heatmap -->
+    <div style="text-align: center;">
+        <label for="yearSelectRight" style="font-weight: 600; font-size: 16px; color: #7c7b7b">Select Year:</label>
+        <select id="yearSelectRight" style="padding: 5px; font-size: 14px; margin-left: 10px; color:#7c7b7b"></select>
+        <div style="margin-top: 10px;">
+            <iframe id="mapFrameRight" src="/assets/heatmaps/heatmap_2024.html" width="400px" height="600px"
+                style="border: 2px solid #A9A9A9; border-radius: 8px;"></iframe>
+        </div>
+    </div>
+
+</div>
+
+<div style="text-align: center; margin-top: 10px;">
+    <span style="font-size: 14px; color: gray;">
+        Heatmap comparison between vehicle theft hotspots in San Francisco between two years of your choice. arker areas indicate higher concentrations of thefts.
+    </span>
+    <br>
+    <span style="font-size: 12px; color: gray;">
+        Source: Figure based on our internal analysis and data.
+        <a href="https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-Historical-2003/tmnf-yvry/about_data" 
+           target="_blank" style="color: gray; text-decoration: none;">
+           Get access to data
+        </a>
+    </span>
+</div>
+
+<script>
+    function populateDropdown(selectId, iframeId) {
+        var select = document.getElementById(selectId);
+
+        for (var year = 2003; year <= 2024; year++) {
+            var option = document.createElement("option");
+            option.value = year;
+            option.textContent = year;
+            select.appendChild(option);
+        }
+
+        select.addEventListener("change", function() {
+            document.getElementById(iframeId).src = "/assets/heatmaps/heatmap_" + this.value + ".html";
+        });
+    }
+
+    // Populate both dropdowns
+    populateDropdown("yearSelectLeft", "mapFrameLeft");
+    populateDropdown("yearSelectRight", "mapFrameRight");
+</script>
