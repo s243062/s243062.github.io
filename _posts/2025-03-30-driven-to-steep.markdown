@@ -5,16 +5,16 @@ date: 2025-03-30 12:00:00 +0100
 categories: jekyll update
 authors:
     [
-        "Tomasz Stępień (s243062)",
-        "Mirka Katuscáková (s246259)",
-        "Karolina Janyga (s243068)",
+        "Tomasz Stępień (s243062) 33%",
+        "Mirka Katuscáková (s246259) 33%",
+        "Karolina Janyga (s243068) 33%",
     ]
 ---
 
 {% if page.authors %}
 
 <p class="post-authors" style="margin-top: -10px">
-<strong>Authors:</strong> {{ page.authors | join: ", " }}
+<strong>Authors & Contribution:</strong> {{ page.authors | join: ", " }}
 </p>
 {% endif %}
 
