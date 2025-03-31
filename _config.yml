@@ -18,16 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 02806 Social Data Analysis and Visualization - Group 50
+title: 02806 Social Data Analysis and Visualization - Group 52
 description: >- # this means to ignore newlines until "baseurl:"
-  This website is for Assignment #2 in the 02806 Social Data Analysis and Visualization course at DTU, created with <3 by Group 50.
+    This website is for Assignment #2 in the 02806 Social Data Analysis and Visualization course at DTU, created with <3 by Group 52.
 baseurl: "" # the subpath of your site, e.g. /blog
-
 # Build settings
 theme: minima
 plugins:
-  - jekyll-feed
-
+    - jekyll-feed
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
