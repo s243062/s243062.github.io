@@ -73,76 +73,7 @@ Get access to data
 
     By the end of 2024, San Francisco recorded its lowest homicide rate since the early 1960s, and overall crime rates returned to levels not seen since 2001. While challenges remain, officials credited a mix of proactive enforcement, technology, and long-term reform efforts for the decline.
 
-<div style="text-align: center; padding-top: 20px">
-    <h4>Vehicle Theft Hotspots in SF (2003–2024)</h4>
-    <label for="yearSelect" style="font-weight: 600; font-size: 16px; color: #7c7b7b">Select Year:</label>
-    <select id="yearSelect" style="padding: 5px; font-size: 14px; margin-left: 10px; color:#7c7b7b"></select>
-
-</div>
-
-<div style="text-align: center; margin-top: 10px;">
-    <iframe id="mapFrame" src="/assets/heatmaps/heatmap_2024.html" width="90%" height="600px" style="border: 2px solid #A9A9A9; border-radius: 8px;"></iframe>
-</div>
-
-<div style="text-align: center; max-width: 80%; margin: auto; margin-top: 10px;">
-    <span style="font-size: 14px; color: gray;">
-        Heatmap showing vehicle theft hotspots in San Francisco (2003–2024). Darker areas indicate higher concentrations of thefts, with notable spikes in certain districts over time.
-    </span>
-    <br>
-    <span style="font-size: 12px; color: gray;">
-        Source: Figure based on our internal analysis and data.
-        <a href="https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-Historical-2003/tmnf-yvry/about_data" target="_blank" style="color: gray; text-decoration: none;">
-        Get access to data
-        </a>
-    </span>
-</div>
-
-<script>
-    var select = document.getElementById("yearSelect");
-
-    // Generate years dynamically from 2003 to 2024
-    for (var year = 2003; year <= 2024; year++) {
-        var option = document.createElement("option");
-        option.value = year;
-        option.textContent = year;
-        select.appendChild(option);
-    }
-
-    // Update iframe when selection changes
-    select.addEventListener("change", function() {
-        document.getElementById("mapFrame").src = "/assets/heatmaps/heatmap_" + this.value + ".html";
-    });
-</script>
-
-<div style="text-align: center; padding-top: 70px">
-    <h4>Vehicle Theft Hotspots Comparison (2005 vs 2006)</h4>
-</div>
-
-<div style="display: flex; justify-content: center; gap: 20px;">
-    <div style="text-align: center;">
-        <div style="font-size: 18px; font-weight: bold; margin-bottom: 10px; color: #959494">2005</div>
-        <iframe src="/assets/heatmaps/heatmap_2005.html" width="400px" height="600px" style="border: 2px solid #A9A9A9; border-radius: 8px;"></iframe>
-    </div>
-    <div style="text-align: center;">
-        <div style="font-size: 18px; font-weight: bold; margin-bottom: 10px; color:#959494">2006</div>
-        <iframe src="/assets/heatmaps/heatmap_2006.html" width="400px" height="600px" style="border: 2px solid #A9A9A9; border-radius: 8px;"></iframe>
-    </div>
-</div>
-
-<div style="text-align: center; margin-top: 10px;">
-    <span style="font-size: 14px; color: gray;">
-        Heatmap comparison between vehicle theft hotspots in San Francisco for 2005 and 2006. The difference in theft patterns between these two years highlights notable shifts in theft locations.
-    </span>
-    <br>
-    <span style="font-size: 12px; color: gray;">
-        Source: Figure based on our internal analysis and data.
-        <a href="https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-Historical-2003/tmnf-yvry/about_data" target="_blank" style="color: gray; text-decoration: none;">
-        Get access to data
-        </a>
-    </span>
-</div>
-
-<div style="text-align: center; padding-top: 20px">
+<div style="text-align: center; padding-top: 20px; width: 80%; margin: auto;">
     <h4>Vehicle Theft Hotspots Comparison in SF (2003–2024) </h4>
 </div>
 
@@ -170,7 +101,7 @@ Get access to data
 
 <div style="text-align: center; margin-top: 10px;">
     <span style="font-size: 14px; color: gray;">
-        Heatmap comparison between vehicle theft hotspots in San Francisco between two years of your choice. arker areas indicate higher concentrations of thefts.
+        Heatmap comparison between vehicle theft hotspots in San Francisco between two years of your choice. Darker areas indicate higher concentrations of thefts.
     </span>
     <br>
     <span style="font-size: 12px; color: gray;">
@@ -207,3 +138,23 @@ Get access to data
     populateDropdown("yearSelectLeft", "mapFrameLeft", 2005);
     populateDropdown("yearSelectRight", "mapFrameRight", 2006);
 </script>
+
+<div style="display: flex; justify-content: center; gap: 20px; padding-top: 30px">
+    <div style="text-align: center;">
+        <iframe src="/assets/plots/sf_car_thefts_policies.html" width="1000px" height="600px"></iframe>
+    </div>
+</div>
+
+<div style="text-align: center; margin-top: 10px;">
+    <span style="font-size: 14px; color: gray;">
+        A line graph showing vehicle theft trends in San Francisco in relation to policy changes over time.
+    </span>
+    <br>
+    <span style="font-size: 12px; color: gray;">
+        Source: Figure based on our internal analysis and data.
+        <a href="https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-Historical-2003/tmnf-yvry/about_data" 
+           target="_blank" style="color: gray; text-decoration: none;">
+           Get access to data
+        </a>
+    </span>
+</div>

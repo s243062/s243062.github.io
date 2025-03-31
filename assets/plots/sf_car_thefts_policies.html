@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        display: flow-root;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.3.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div id="a088cdbd-6ec9-4485-925b-bbc8569d4772" data-root-id="p21570" style="display: contents;"></div>
+  
+    <script type="application/json" id="bb53c084-4d6f-451e-ba61-1bfdddc86e12">
+      {"0f192154-ad94-494b-b516-8dca6fc44505":{"version":"3.6.3","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p21570","attributes":{"width":1000,"x_range":{"type":"object","name":"DataRange1d","id":"p21571"},"y_range":{"type":"object","name":"DataRange1d","id":"p21572"},"x_scale":{"type":"object","name":"LinearScale","id":"p21580"},"y_scale":{"type":"object","name":"LinearScale","id":"p21581"},"title":{"type":"object","name":"Title","id":"p21573","attributes":{"text":"When Policy Hits the Pavement: SF Car Thefts vs State Actions","align":"center"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p21608","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p21567","attributes":{"selected":{"type":"object","name":"Selection","id":"p21568","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p21569"},"data":{"type":"map","entries":[["index",{"type":"ndarray","array":{"type":"bytes","data":"AAAAAAEAAAACAAAAAwAAAAQAAAAFAAAABgAAAAcAAAAIAAAACQAAAAoAAAALAAAADAAAAA0AAAAOAAAADwAAABAAAAARAAAAEgAAABMAAAAUAAAAFQAAAA=="},"shape":[22],"dtype":"int32","order":"little"}],["Year",{"type":"ndarray","array":{"type":"bytes","data":"0wcAANQHAADVBwAA1gcAANcHAADYBwAA2QcAANoHAADbBwAA3AcAAN0HAADeBwAA3wcAAOAHAADhBwAA4gcAAOMHAADkBwAA5QcAAOYHAADnBwAA6AcAAA=="},"shape":[22],"dtype":"int32","order":"little"}],["Thefts",{"type":"ndarray","array":{"type":"bytes","data":"rDsAAJhFAAC3RgAAXxwAACwZAACaFwAAMhQAAPAQAACHEgAAHhgAAFoYAAC9GwAA/x4AABEZAABJFgAAvhQAACYVAACUHQAARh8AADggAAAfIwAAJxwAAA=="},"shape":[22],"dtype":"int32","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p21609","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p21610"}}},"glyph":{"type":"object","name":"Line","id":"p21605","attributes":{"x":{"type":"field","field":"Year"},"y":{"type":"field","field":"Thefts"},"line_color":"#6baed6","line_width":3}},"nonselection_glyph":{"type":"object","name":"Line","id":"p21606","attributes":{"x":{"type":"field","field":"Year"},"y":{"type":"field","field":"Thefts"},"line_color":"#6baed6","line_alpha":0.1,"line_width":3}},"muted_glyph":{"type":"object","name":"Line","id":"p21607","attributes":{"x":{"type":"field","field":"Year"},"y":{"type":"field","field":"Thefts"},"line_color":"#6baed6","line_alpha":0.2,"line_width":3}}}},{"type":"object","name":"GlyphRenderer","id":"p21619","attributes":{"data_source":{"id":"p21567"},"view":{"type":"object","name":"CDSView","id":"p21620","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p21621"}}},"glyph":{"type":"object","name":"Scatter","id":"p21616","attributes":{"x":{"type":"field","field":"Year"},"y":{"type":"field","field":"Thefts"},"size":{"type":"value","value":8},"line_color":{"type":"value","value":"#6baed6"},"fill_color":{"type":"value","value":"#6baed6"},"fill_alpha":{"type":"value","value":0.9},"hatch_color":{"type":"value","value":"#6baed6"}}},"nonselection_glyph":{"type":"object","name":"Scatter","id":"p21617","attributes":{"x":{"type":"field","field":"Year"},"y":{"type":"field","field":"Thefts"},"size":{"type":"value","value":8},"line_color":{"type":"value","value":"#6baed6"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#6baed6"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"value","value":"#6baed6"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Scatter","id":"p21618","attributes":{"x":{"type":"field","field":"Year"},"y":{"type":"field","field":"Thefts"},"size":{"type":"value","value":8},"line_color":{"type":"value","value":"#6baed6"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#6baed6"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"#6baed6"},"hatch_alpha":{"type":"value","value":0.2}}}}},{"type":"object","name":"GlyphRenderer","id":"p21638","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p21632","attributes":{"selected":{"type":"object","name":"Selection","id":"p21633","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p21634"},"data":{"type":"map","entries":[["x",[2006,2006]],["y",[0,1]]]}}},"view":{"type":"object","name":"CDSView","id":"p21639","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p21640"}}},"glyph":{"type":"object","name":"Line","id":"p21635","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"red","line_width":3,"line_dash":[2,4]}},"nonselection_glyph":{"type":"object","name":"Line","id":"p21636","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"red","line_alpha":0.1,"line_width":3,"line_dash":[2,4]}},"muted_glyph":{"type":"object","name":"Line","id":"p21637","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_color":"red","line_alpha":0.2,"line_width":3,"line_dash":[2,4]}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p21579","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p21592"},{"type":"object","name":"BoxZoomTool","id":"p21593","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p21594","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p21600","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p21599","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p21601"},{"type":"object","name":"HoverTool","id":"p21642","attributes":{"renderers":"auto","tooltips":[["Year","@Year"],["Vehicle Thefts","@Thefts"]]}}]}},"left":[{"type":"object","name":"LinearAxis","id":"p21587","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p21588","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p21589"},"axis_label":"Vehicle Thefts (Count)","major_label_policy":{"type":"object","name":"AllLabels","id":"p21590"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p21582","attributes":{"ticker":{"type":"object","name":"FixedTicker","id":"p21643","attributes":{"ticks":[2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024],"minor_ticks":[]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p21584"},"axis_label":"Year","major_label_policy":{"type":"object","name":"AllLabels","id":"p21585"}}}],"center":[{"type":"object","name":"Grid","id":"p21586","attributes":{"visible":false,"axis":{"id":"p21582"}}},{"type":"object","name":"Grid","id":"p21591","attributes":{"visible":false,"dimension":1,"axis":{"id":"p21587"}}},{"type":"object","name":"Legend","id":"p21611","attributes":{"title":"Legend","label_text_font_size":"12px","glyph_height":10,"items":[{"type":"object","name":"LegendItem","id":"p21612","attributes":{"label":{"type":"value","value":"Vehicle Thefts"},"renderers":[{"id":"p21608"},{"id":"p21619"}]}},{"type":"object","name":"LegendItem","id":"p21641","attributes":{"label":{"type":"value","value":"Policy Marker"},"renderers":[{"id":"p21638"}]}}]}},{"type":"object","name":"Span","id":"p21622","attributes":{"location":2006,"dimension":"height","line_color":"red","line_width":3,"line_dash":[2,4]}},{"type":"object","name":"Label","id":"p21623","attributes":{"text":"Tech\n Impact","padding":6,"text_color":"white","text_align":"center","text_baseline":"middle","background_fill_color":"red","background_fill_alpha":0.7,"border_line_color":"black","x":2006,"y":905.1500000000001}},{"type":"object","name":"Span","id":"p21624","attributes":{"location":2011,"dimension":"height","line_color":"red","line_width":3,"line_dash":[2,4]}},{"type":"object","name":"Label","id":"p21625","attributes":{"text":"AB 109","padding":6,"text_color":"white","text_align":"center","text_baseline":"middle","background_fill_color":"red","background_fill_alpha":0.7,"border_line_color":"black","x":2011,"y":905.1500000000001}},{"type":"object","name":"Span","id":"p21626","attributes":{"location":2016,"dimension":"height","line_color":"red","line_width":3,"line_dash":[2,4]}},{"type":"object","name":"Label","id":"p21627","attributes":{"text":"FEAR\n Operations","padding":6,"text_color":"white","text_align":"center","text_baseline":"middle","background_fill_color":"red","background_fill_alpha":0.7,"border_line_color":"black","x":2016,"y":905.1500000000001}},{"type":"object","name":"Span","id":"p21628","attributes":{"location":2022,"dimension":"height","line_color":"red","line_width":3,"line_dash":[2,4]}},{"type":"object","name":"Label","id":"p21629","attributes":{"text":"TikTok\n Trend","padding":6,"text_color":"white","text_align":"center","text_baseline":"middle","background_fill_color":"red","background_fill_alpha":0.7,"border_line_color":"black","x":2022,"y":905.1500000000001}},{"type":"object","name":"Span","id":"p21630","attributes":{"location":2024,"dimension":"height","line_color":"red","line_width":3,"line_dash":[2,4]}},{"type":"object","name":"Label","id":"p21631","attributes":{"text":"SFPD\n Reform","padding":6,"text_color":"white","text_align":"center","text_baseline":"middle","background_fill_color":"red","background_fill_alpha":0.7,"border_line_color":"black","x":2024,"y":905.1500000000001}}]}}]}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('bb53c084-4d6f-451e-ba61-1bfdddc86e12').textContent;
+              const render_items = [{"docid":"0f192154-ad94-494b-b516-8dca6fc44505","roots":{"p21570":"a088cdbd-6ec9-4485-925b-bbc8569d4772"},"root_ids":["p21570"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>
